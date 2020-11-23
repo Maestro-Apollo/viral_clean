@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h5,
+h6,
+h3,
+button,
+a,
+h5,
+h4 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p,
+li {
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+.nav-wrapper .brand-logo img {
+    width: 54px;
+}
+
+.section_padding {
+    padding: 60px 0;
+}
+
+.buttons-wrapper {
+    position: absolute;
+    height: calc(100vh);
+    margin-top: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 997;
+    top: 0;
+    pointer-events: none;
+    width: 100%;
+}
+
+.buttons-wrapper a {
+    pointer-events: auto;
+}
+
+.mg-rg {
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-top: 5rem;
+}
+
+.brand-logo {
+    padding: 12px 0;
+}
+
+.back_img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../image/Disinfecting2.png');
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+
+h3 {
+    margin: 0;
+    padding-top: 300px;
+}
+
+.underline {
+    width: 150px;
+    height: 5px;
+    background-color: teal;
+    display: block;
+    margin: 0 auto;
+}
